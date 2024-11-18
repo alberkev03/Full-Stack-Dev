@@ -9,7 +9,7 @@ body {
 a {
     text-decoration: none;
 }
-
+/* Flexbox es extremadamente fácil */
 .navbar {
     display: flex;
     justify-content: space-evenly;
@@ -18,7 +18,7 @@ a {
     align-items: center;
     background-color: #fdfbfc;
 }
-
+/* Pero Grid una vez se entiende también. Es muy fácil organizar el contenido del sitio web */
 .content {
     margin: 30px;
     display: grid;
