@@ -1,0 +1,55 @@
+* {
+    font-family: monospace;
+}
+body {
+    background: linear-gradient(144deg,#00b4d8 50%, #0083b0 100%);
+}
+
+.tarjeta {
+    height: 700px;
+    width: 600px;
+    margin: auto;
+    box-sizing: border-box;
+    border: 2px solid rgba(255, 255, 255, 0.39);
+    background: linear-gradient(90deg, #424242, #010101);
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+}
+p {
+    font-size: 15px;
+    margin: 0 50px 30px;
+}
+.foto-perfil {
+    display: block;
+    margin: 30px auto;
+    width: 300px;
+    border-radius: 100%;
+    box-shadow: 0 0 20px black;
+}
+
+.boton {
+    border: none;
+    box-size: border-box;
+    margin: 6px;
+    padding: 5px 20px;
+    border-radius: 20px;
+}
+
+.primario {
+    font-size: 20px;
+    background: linear-gradient(144deg,#00b4d8 50%, #0083b0 100%);
+    box-shadow: 0 0 20px black;
+}
+.primario:hover {
+    background: linear-gradient(144deg,#0094c4 50%, #006796 100%);
+    cursor: pointer;
+}
+.secundario {
+    background-color: rgba(211, 211, 211, 0.295);
+    color: white;
+}
+.secundario:hover {
+    background-color: rgba(56, 56, 56, 0.59);
+    cursor: pointer;
+}

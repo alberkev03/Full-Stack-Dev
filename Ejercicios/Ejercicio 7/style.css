@@ -1,0 +1,41 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+body {
+    background-color: #fdfbfc;
+    color: #170d16;
+}
+a {
+    text-decoration: none;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    height: 50px;
+    align-items: center;
+    background-color: #fdfbfc;
+}
+
+.content {
+    margin: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    text-align: center;
+/* IMPORTANTE: grid-template-areas van con comillas. Me daba error y no había visto por qué */
+    grid-template-areas: 
+    "card1 card2 card3";
+    gap: 30px;
+}
+.card1 {
+    grid-area: card1;
+}
+.card2 {
+    grid-area: card2;
+}
+.card3 {
+    grid-area: card3;
+}

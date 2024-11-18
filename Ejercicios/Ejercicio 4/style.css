@@ -1,0 +1,15 @@
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    color: darkblue;
+}
+.destacado {
+    font-size: 18px;
+}
+
+.informacion {
+    color: green;
+    text-decoration: underline;
+}

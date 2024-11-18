@@ -1,0 +1,21 @@
+* {
+    font-family: Arial, sans-serif;
+}
+.ejercicio1 {
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-shadow: 2px 2px lightgray;
+}
+.ejercicio2 {
+/* Aquí se pide usar rgb por un lado y rgba por otro para el mismo elemento. Rgb está dentro de rgba así que usé solo ese */
+    color: rgba(255, 0, 0, 0.5);
+    background-color: lightblue;
+}
+.ejercicio3 {
+    color: white;
+    background: linear-gradient(blue, green);
+}
