@@ -1,0 +1,33 @@
+<!-- Objetivos: Crear un formulario que colecte datos del usuario para almacenar en JS -->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+
+</head>
+<body>
+    <div class="formulario">
+        <h1>Información de usuario</h1>
+        <form action="">
+            <label for="nombre" class="label form">Nombre</label>
+            <input type="text" class="nombre block form">
+
+            <label for="edad">Edad</label>
+            <input type="number" class="edad block">
+
+            <p>¿Es usted un cliente habitual?</p>
+            <input type="radio" name="cliente" id="true">
+            <label for="true">Sí</label>
+            <input type="radio" name="cliente" id="false">
+            <label for="false">No</label>
+
+            <button type="submit" class="button">Enviar</button>
+        </form>
+    </div>
+</body>
+</html>
