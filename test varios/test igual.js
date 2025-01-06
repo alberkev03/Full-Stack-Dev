@@ -1,2 +1,4 @@
-let igual = 5 == '5';
-console.log(igual);
+/* Test de base de datos de usuarios */
+let usuarios = [
+    {nombre, edad: 22, }
+]

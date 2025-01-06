@@ -1,7 +1,7 @@
 let usuari = {
-    nombre: "",
-    apellido: "",
-    frase: "",
+    nombre,
+    apellido,
+    frase,
 };
 
 let nombre = prompt("Cuál es tu nombre?")
