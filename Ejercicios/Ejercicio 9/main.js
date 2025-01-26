@@ -1,9 +1,3 @@
-let usuari = {
-    nombre,
-    apellido,
-    frase,
-};
-
 let nombre = prompt("Cuál es tu nombre?")
 let apellido = prompt("Y tu appelido?")
 let frase = prompt("Alguna frase que quieras decir?")

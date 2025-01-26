@@ -1,8 +1,15 @@
-let usuario = {};
+/* Aprendido: Los objetos se crean DESPUES de declarar las variables en caso de ser prompt */
 
-usuario.nombre = prompt("Ingresa tu nombre:");
-usuario.apellido = prompt("Ingresa tu apellido:");
-usuario.edad = parseInt(prompt("Ingresa tu edad:"));
-usuario.cliente = confirm("¿Es cliente?");
+let nombre = prompt("Ingresa tu nombre:");
+let apellido = prompt("Ingresa tu apellido:");
+let edad = prompt("Ingresa tu edad:");
+let cliente = confirm("¿Es cliente?");
+
+let usuario = {
+    nombre,
+    apellido,
+    edad,
+    cliente,
+}
 
 console.log(usuario);
