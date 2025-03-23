@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Ejercicio 14 - JSON y localStorage -->
+    <div class="user-div">
+        <h1>Formulario de usuario</h1>
+        <form action="" class="user">
+            <label for="name" class="name user-form">Nombre</label>
+            <input type="text" class="name user-form" name="name" id="name">
+            
+            <label for="surname" class="surname user-form">Apellido</label>
+            <input type="text" name="surname" class="surname user-form" id="surname">
+            
+            <label for="age" class="age user-form">Edad</label>
+            <input type="number" class="age user-form" name="age" id="age">
+            <button type="button" class="submit user-form">Enviar</button>
+        </form>
+    </div> 
+
+    <div id="user-table">
+        <table>
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th id="user-name"></th>
+                </tr>
+                <tr>
+                    <th>Apellido</th>
+                    <td id="user-surname"></th>
+                </tr>
+                <tr>
+                    <th>Edad</th>
+                    <td id="user-age"></th>
+                </tr>
+            </thead>
+            <tbody id="user-table-body">
+            </tbody>
+        </table>
+    </div>
+
+
+
+
+    <aside>
+        <button id="theme-toggle">Modo oscuro</button>
+    </aside>
+    <script src="main.js"></script>
+</body>
+</html>

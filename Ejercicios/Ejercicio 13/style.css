@@ -1,0 +1,8 @@
+.task {
+    display: inline;
+    margin: 5px
+}
+
+.green {
+    background-color: green;
+}
