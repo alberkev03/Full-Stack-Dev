@@ -10,7 +10,6 @@ let submitButton = document.querySelector('.submit')
 /* Return values into JSON */
 submitButton.addEventListener('click', () => {
     let userData = [userName.value, userSurname.value, userAge.value]
-    document.body.)
     let dataString = JSON.stringify(userData)
     console.log(dataString)
 })
